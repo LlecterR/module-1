@@ -69,6 +69,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+.item {
+  margin-bottom: 90px;
+}
+
 .item_image {
   margin-bottom: 15px;
 }
@@ -90,6 +94,7 @@ h2 {
 }
 
 .all_projects {
+  margin-top: 146px;
   font-size: 30px;
   border: 1px solid #ad1818;
   border-radius: 1px;
@@ -97,6 +102,8 @@ h2 {
   line-height: 40.98px;
   letter-spacing: -0.03em;
   text-decoration: none;
+  display: block;
+  text-align: center;
   padding-top: 56px;
   padding-bottom: 56px;
 }
