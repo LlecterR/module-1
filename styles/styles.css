@@ -3,18 +3,18 @@ body {
   background: #f5f5f5;
 }
 
+div {
+  width: 1150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 60px;
   line-height: 60px;
   margin-bottom: 30px;
   letter-spacing: -0.03em;
   width: 956px;
-}
-
-.container_one {
-  width: 1150px;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .we_are_bg {
@@ -37,12 +37,12 @@ h1 {
   width: 1150px;
   margin: 0 auto;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 h2 {
   font-size: 18px;
   line-height: 24.59px;
-  margin-bottom: 30px;
 }
 
 .about {
@@ -62,4 +62,41 @@ h2 {
   text-decoration: none;
   padding: 20px 40px;
   gap: 10px;
+}
+
+.items {
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.item_image {
+  margin-bottom: 15px;
+}
+
+.item_text {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+}
+
+.item_link {
+  margin-bottom: 90px;
+  color: #ad1818;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.all_projects {
+  font-size: 30px;
+  border: 1px solid #ad1818;
+  border-radius: 1px;
+  color: #ad1818;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
